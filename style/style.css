@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar */
+.navalert-container {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    border:0;
+    width:100%;
+    /*background-color: rgba(0,0,0,0.1);*/
+}
+.navbar .navbar-toggler{
+    border:0;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.navbar .navbar-nav a{
+    font-weight: bold;
+}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wide-alert {
+    color: #544600;
+    background-color: #eec802;
+    border-color: #eec802;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+.callout-container {
+    height: 100vh;
+    background: url('../static/sgcarloan.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+/*.opaque-overlay {*/
+/*    position:absolute;*/
+/*    top:0;*/
+/*    left:0;*/
+/*    height:100%;*/
+/*    width:100%;*/
+/*    background-color: rgba(0,0,0,0.1);*/
+/*}*/
+.quote-container {}
+.feature-container {}
+.jumbotron {
+    background: transparent;
+    color: black;    
+    /*background: rgba(49, 47, 49, 0.856);*/
+
+    /*color: white;*/
+}
+.jumbotron-header {}
+.jumbotron .lead {
+    margin: 30px 0;
+    color: #312d2d;
+}
+.jumbotron-rate {
+    font-size: 3rem;
+    /*font-weight: bold;*/
+}
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #28a745;
+}
+
+.jumbotron .small {}
+
+
+
+/* Buttons */
+.btn-signup {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--green {
+    color: white;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
+    color: white;
+    background-color: #377d47;
+    border-color: #1c7430;
+}
+
+/* Facebook icon styling */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /*.jumbotron {*/
+    /*    background: transparent;*/
+    /*    color: black;*/
+    /*}*/
+}
